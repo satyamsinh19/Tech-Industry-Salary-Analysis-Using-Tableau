@@ -1,15 +1,21 @@
-<h1 align="center">💼 Tech Industry Salary Dashboard </h1>
+<h1 align="center">💼 Tech Industry Salary Dashboard</h1>
 
 Welcome to the **Tech Industry Salary Dashboard** project!  
-This Tableau dashboard offers detailed insights into compensation patterns across various tech roles globally. It was created using a real-world dataset to improve analytical storytelling and data visualization skills with **Tableau Public**.
+This Tableau dashboard offers detailed insights into compensation patterns across various tech roles globally. Built using real-world data, it helps answer critical questions such as:
+
+> 🔍 *Which roles earn the most?*  
+> 🌍 *How does remote work affect salary?*  
+> 📈 *What experience level pays best across companies?*
+
+It was created using **Tableau Public** to enhance analytical storytelling, visual clarity, and dashboard interactivity.
 
 ---
 
 ## 📘 About the Project
 
-This project uses a global salary dataset collected from professionals in the tech industry.  
-It explores salary trends, remote work ratios, company characteristics, and employment types to help understand how different factors impact compensation.  
-The dashboard was developed in **Tableau Public** using calculated fields, parameters, filters, and interactive visuals.
+This project analyzes a global tech salary dataset containing job titles, locations, experience levels, and company sizes.  
+It explores salary trends, remote work ratios, and company characteristics to uncover how compensation is shaped by multiple professional factors.  
+The dashboard was developed in **Tableau Desktop Public Edition** using calculated fields, filters, and multiple visual formats.
 
 ---
 
@@ -20,58 +26,77 @@ The dashboard was developed in **Tableau Public** using calculated fields, param
   - Year, Experience Level, Employment Type
   - Job Title, Salary (USD), Remote Ratio
   - Employee Location vs. Company Location
-  - Company Size (S/M/L)
+  - Company Size (Small, Medium, Large)
+
+---
+
+## 📊 Key Metrics Tracked
+
+- 🧑‍💼 **Total Employees**: 136,757  
+- 💰 **Average Salary**: $163,043  
+- 🗂️ **Total Job Titles**: 398  
+- 🏢 **Company Locations**: 95  
+- 🌐 **Average Remote Ratio**: 21%
 
 ---
 
 ## 📌 What You'll Find in the Dashboard
 
-### 🎯 **Key Analytics Areas:**
-- 💼 Salary Comparison by Job Role and Experience
-- 🌍 Employee vs Company Location Insights
-- 🏢 Salary by Company Size and Employment Type
-- 🔄 Remote Ratio Impact on Salary
-- 📊 Year-wise Compensation Trends
-
-### 🔍 **Sample Insights:**
-- Executive-level roles earn significantly more across the board
-- Remote jobs offer competitive or better pay depending on location
-- Employees in the US and Switzerland report the highest salaries
-- Large companies tend to pay more than small startups
-- Year-on-year salary growth observed across most roles
+### 🎯 **Analytical Focus Areas:**
+- 💼 Salary Comparison by Job Role and Experience Level
+- 🌍 Compensation Trends by Company and Employee Location
+- 🏢 Salary Breakdown by Company Size and Employment Type
+- 🧑‍💻 Remote Work Ratio Impact on Salaries
+- 📈 Year-wise Salary Growth Over Time
 
 ---
 
-## 🛠 Tools Used
-
-| Category         | Tools & Technologies     |
-|------------------|--------------------------|
-| Data Source      | CSV (.csv)               |
-| Visualization    | Tableau Desktop (.twbx)  |
-| Data Prep        | Tableau Prep, Excel, Calculated Fields |
-| Export           | Tableau Packaged Workbook |
+### 🔍 **Sample Insights from the Dashboard**
+- 🏆 **Principal Data Architect** roles have the highest average salary at **$3M**
+- 🌏 **Japan** leads with the highest average salary by location (**$3.96M**)
+- 🧠 **Executive-level professionals** (EX) consistently earn more than others
+- 🏢 **Large companies** provide higher remote opportunities and compensation
+- 📈 **Post-2022 salary growth** shows a steep rise across industries
 
 ---
 
-## 🧰 Files in This Repository
+## 🛠 Tools & Technologies Used
 
-| File Name                          | Description                             |
-|-----------------------------------|-----------------------------------------|
-| `Salaries.csv`                    | Raw dataset used for analysis           |
-| `Tech Industry Salary Dashboard.png` | Snapshot of Tableau Dashboard         |
-| `Tech Industry Salary Dashboard.twbx` | Packaged Tableau Dashboard         |
-| `README.md`                       | Project documentation                   |
+| Category         | Tools & Platforms             |
+|------------------|-------------------------------|
+| Data Source      | CSV (`Salaries.csv`)          |
+| Visualization    | Tableau Desktop Public Edition|
+| Data Prep        | Excel, Tableau Calculated Fields |
+| Dashboard Export | `.twbx` Packaged Workbook     |
+
+---
+
+## 📁 Repository Structure
+
+| File Name                            | Description                             |
+|-------------------------------------|-----------------------------------------|
+| `Salaries.csv`                      | Raw dataset used for analysis           |
+| `Tech Industry Salary Dashboard.png`| Snapshot of Tableau Dashboard           |
+| `Tech Industry Salary Dashboard.twbx`| Packaged Tableau Workbook              |
+| `README.md`                         | Project documentation (this file)       |
 
 ---
 
 ## 🧠 Key Learnings
 
-This project helped me:
-- Analyze compensation patterns across global tech roles
-- Build dynamic Tableau dashboards with filters and charts
-- Understand the relationship between job factors and salary
-- Apply **data storytelling** to communicate business insights
-- Enhance my **data visualization** portfolio using real-world data
+Through this project, I gained hands-on experience in:
+- Analyzing salary and workforce patterns across global tech roles
+- Building interactive, high-impact dashboards using Tableau
+- Applying calculated fields, filters, and layered visual storytelling
+- Communicating complex insights clearly to non-technical audiences
+- Enhancing my **data visualization portfolio** with real-world insights
+
+---
+
+## 📌 Tags & Skills
+
+`#Tableau` `#DataVisualization` `#TechSalaries` `#RemoteWorkAnalysis`  
+`#DashboardDesign` `#ExperienceTrends` `#BusinessIntelligence`
 
 ---
 
@@ -80,11 +105,3 @@ This project helped me:
 👤 **Satyam Kumar**  
 🌐 [LinkedIn](https://www.linkedin.com/in/satyam-kumar-5a229222b)  
 📬 **satyamkv123@gmail.com**
-
----
-
-## 📃 License
-
-This project is intended for academic, learning, and portfolio purposes.  
-You may reuse or modify it with proper attribution.
-
